@@ -1,0 +1,15 @@
+**/.DS_Store
+**/__MACOS__
+**/*.pyc
+**/*.o
+**/*.out
+**/*.bak
+**/~*
+**/.venv
+**/.vscode
+**/.Rhistory
+**/.ipynb_checkpoints
+
+.quarto/
+
+/.quarto/
