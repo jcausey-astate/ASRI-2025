@@ -14,8 +14,6 @@ project:
   #   - "cp images/*.svg docs/images/"
   resources:
     - images/*.svg
-    - notebooks/python_intermediate_regression_ASRI25.ipynb
-    - notebooks/python_intermediate_regression_complete_ASRI25.ipynb
 
 website:
   title: "ASRI-2025"
