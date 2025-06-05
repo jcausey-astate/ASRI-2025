@@ -12,17 +12,15 @@
 
 ::: {.indented}
 
----
-# #### Workshop version (with open exercises to complete)
-# 
-# <https://colab.research.google.com/github/jcausey-astate/ASRI-2025/blob/main/python_intermediate_regression_ASRI25.ipynb>
-# 
-# #### Completed version for reference
-# 
-# <https://colab.research.google.com/github/jcausey-astate/ASRI-2025/blob/main/python_intermediate_regression_complete_ASRI25.ipynb>
-# 
-# #### [Non-interactive web version](python_intermediate_regression_complete_ASRI25.html)
----
+#### Workshop version (with open exercises to complete)
+
+<https://colab.research.google.com/github/jcausey-astate/ASRI-2025/blob/main/python_intermediate_regression_ASRI25.ipynb>
+
+#### Completed version for reference
+
+<https://colab.research.google.com/github/jcausey-astate/ASRI-2025/blob/main/python_intermediate_regression_complete_ASRI25.ipynb>
+
+#### [Non-interactive web version](python_intermediate_regression_complete_ASRI25.html)
 
 :::
 
