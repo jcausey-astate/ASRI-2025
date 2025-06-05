@@ -12,7 +12,10 @@ project:
     - "!z_recordings/"
   # post-render:
   #   - "cp images/*.svg docs/images/"
-  resources: images/*.svg
+  resources:
+    - images/*.svg
+    - notebooks/python_intermediate_regression_ASRI25.ipynb
+    - notebooks/python_intermediate_regression_complete_ASRI25.ipynb
 
 website:
   title: "ASRI-2025"
