@@ -745,7 +745,7 @@ mean MAE: 2.2 mpg, std: 0.8 mpg.</code></pre>
 </div>
 </div>
 </div>
-<p>💹 We can see from this that “model_year” had the most impact on the linear model. Looking back at the original scatterplots, we can see that model year does have a mostly-linear trend where mpg tends to increase in more recent years.</p>
+<p>📈 We can see from this that “model_year” had the most impact on the linear model. Looking back at the original scatterplots, we can see that model year does have a mostly-linear trend where mpg tends to increase in more recent years.</p>
 <p>The <code>RandomForestRegressor</code> model provides feature importance information in its <code>feature_importances_</code> attribute:</p>
 <div id="19cfd73c" class="cell" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get feature importances from the Random Forest model (it is already normalized to sum to 1.0).</span></span>
@@ -1013,7 +1013,7 @@ mean MAE: 2.2 mpg, std: 0.77 mpg.
 </code></pre>
 </div>
 </div>
-<p>Including the origin as a categorical feature has improved our model performance in the linear regression and quadratic models, but not significantly. The RF model was mostly unchanged by the addition of this variable.</p>
+<p>Including the origin as a categorical feature has improved our model performance in the linear regression model, but not significantly. The other models were mostly unchanged by the addition of this variable.</p>
 <p>However, categorical variables can be very important in some datasets! Consider encoding them and using them in the model; you can evaluate whether or not it was worthwhile before training your final model version.</p>
 <section id="theres-more-than-one-way-to-do-it" class="level4">
 <h4 class="anchored" data-anchor-id="theres-more-than-one-way-to-do-it">There’s More Than One Way to Do It</h4>
